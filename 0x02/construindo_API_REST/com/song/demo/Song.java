@@ -3,7 +3,7 @@ package com.example.demo;
 import java.util.Objects;
 
 public class Song {
-	
+
 	private Integer id;
 	private String nome;
 	private String artista;
@@ -79,6 +79,5 @@ public class Song {
 		return "Song [id=" + id + ", nome=" + nome + ", artista=" + artista + ", album=" + album + ", anoLancamento="
 				+ anoLancamento + "]";
 	}
-	
 
 }
